@@ -6,9 +6,6 @@ var multer = require('multer');
 var upload = multer({ dest: './uploads/' });
 var cloudinary = require('cloudinary');
 
-
-
-
 // JSON web token dependencies, including a secret key to sign the token
 var expressJWT = require('express-jwt');
 var jwt = require('jsonwebtoken');
